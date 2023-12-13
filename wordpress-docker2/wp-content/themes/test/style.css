@@ -1,0 +1,245 @@
+/*
+Theme Name: testing
+Text Domain: Testing
+Version: 1.2
+Description: testing theme
+Tags: responsive, header, footer
+Author: Amar
+*/
+
+html, body {
+    overflow-x: hidden;
+  }
+
+.form {
+    margin-top: 50px;
+    margin-left: 35vh;
+    margin-bottom: 150px;
+}
+
+/*  hemsidan  */
+
+.hem-img {
+    margin-top: 50px;
+
+    margin-bottom: -200px;
+}
+
+.hem-title{
+    color: #ffffff;
+position: relative;
+bottom: 250px;
+left: 42%;
+}
+
+.hem-text {
+    color: #ffffff;
+    position: relative;
+    bottom: 250px;
+}
+
+
+/* exempelsida */
+
+.page-title{
+margin-left: 100px;
+position: relative;
+bottom: 30vh;
+}
+
+.page-content {
+    position: relative;
+
+}
+
+.exempel-text {
+    margin-left: 100px;
+    width: 100vh;
+    position: relative;
+    bottom: 160px;
+}
+
+.sidebar-text {
+    position: relative;
+    left: 150px;
+    bottom: 100px;
+    margin-bottom: 200px;
+}
+
+
+.img-title{
+    margin-left: 150px;
+    position: relative;
+    bottom: 48vh;
+    }
+
+
+
+    .img-text {
+        margin-left: 150px;
+    position: relative;
+    bottom: 40vh;
+    }
+
+/* footer */
+.mainfooter{
+    background-color: rgb(224, 224, 255);
+    position: relative;
+    top: 140px;
+    bottom: 0;
+    height: 350px;
+    width: 100%;
+    margin-top: -0px;
+}
+
+.footer {
+position: relative;
+top: 50px;
+left: 150px;
+}
+
+.container {
+    text-decoration: none;
+
+}
+
+.foot-items{
+    display: flex;
+    position: relative;
+    justify-content: space-evenly;
+    top: 30px;
+    left: 30px;
+}
+
+.line {
+    position: relative;
+    top: 75px;
+    left: 22vh;
+    background-color: rgb(131, 131, 151);
+    width: 140vh;
+    height: 1px;
+}
+
+.bottom {
+    text-align: center;
+
+    position: relative;
+    top: 110px;
+
+}
+
+.social li a {
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+
+.social li  {
+    list-style: none;
+
+}
+
+
+
+
+
+
+.contact {
+    position: relative;
+    top: 12px;
+    left: 77vh;
+
+}
+
+/* image template */
+.img {
+    position: relative;
+    left: 100vh;
+    height: 50vh;
+    top: 50px;
+    margin-bottom: 100px;
+}
+
+
+/* navbar menu */
+.menu-primary {
+list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-primary li {
+    display: inline-block;
+    text-decoration: none;
+    margin-left: 15px;
+
+}
+
+.menu-primary a {
+    text-decoration: none !important;
+    color: white;
+    filter: brightness(0.78);
+
+}
+
+.menu-primary a:hover {
+    text-decoration: none !important;
+    color: white;
+    filter: brightness(100);
+}
+
+
+/* sidebar menu*/
+
+.bg {
+
+    background-color: #424242;
+    width: 230px;
+    height: 260px;
+    position: relative;
+    top: 100px;
+    left: 155vh;
+    border-radius: 5px;
+
+}
+
+.menu-content {
+    color: aliceblue;
+    position: relative;
+    left: 32px;
+    top: 30px;
+
+}
+
+.menu-primar {
+    list-style: none;
+        margin: 0;
+        padding: 0;
+        height: 50vh;
+        position: relative;
+        left: 20px;
+    }
+
+    .menu-primar li {
+        position: relative;
+        top: 35px;
+margin-top: 2px;
+        text-decoration: none;
+        margin-left: 15px;
+
+    }
+
+    .menu-primar a {
+        text-decoration: none !important;
+    color: rgb(255, 55, 55);
+    filter: brightness(0.88);
+
+    }
+
+    .menu-primar a:hover {
+        text-decoration: none;
+        color: white;
+    filter: brightness(100);
+
+
+    }
